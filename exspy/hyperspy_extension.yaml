@@ -72,6 +72,9 @@ components1D:
   PESVoigt:
     module: exspy.components.pes_voigt
     class: PESVoigt
+  Physical_background:
+    module: hyperspy._components.physical_background
+    class: Physical_background  
   SEE:
     module: exspy.components.pes_see
     class: SEE
